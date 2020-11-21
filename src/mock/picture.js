@@ -29,25 +29,54 @@
 // https://imgchr.com/i/D1FS0g
 // https://imgchr.com/i/D1Fp7Q
 
-const pictures = [
-	{
-		title: '猫',
-		info: '上海静安寺的猫',
-		deviceParam: 'Sony A7M2, Sony FE 35mm F1.8',
-		pictureUrl: 'https://imgchr.com/i/D1Fp7Q',
-	},
-	{
-		title: '猫',
-		info: '上海静安寺的猫',
-		deviceParam: 'Sony A7M2, Sony FE 35mm F1.8',
-		pictureUrl: 'https://imgchr.com/i/D1Fp7Q',
-	},
-	{
-		title: '猫',
-		info: '上海静安寺的猫',
-		deviceParam: 'Sony A7M2, Sony FE 35mm F1.8',
-		pictureUrl: 'https://imgchr.com/i/D1Fp7Q',
-	},
-]
+const pictures = {
+	vertical: [
+		{
+			id: 1,
+			title: '猫',
+			info: '上海静安寺的猫',
+			pictureUrl: 'https://s3.ax1x.com/2020/11/21/D1Fp7Q.jpg',
+		},
+		{
+			id: 2,
+			title: '猫',
+			info: '上海静安寺的猫',
+			pictureUrl: 'https://s3.ax1x.com/2020/11/21/D1ij6f.jpg',
+		},
+		{
+			id: 3,
+			title: '猫',
+			info: '上海静安寺的猫',
+			deviceParam: 'Sony A7M2, Sony FE 35mm F1.8',
+			pictureUrl: 'https://s3.ax1x.com/2020/11/21/D1ij6f.jpg',
+		},
+	],
+	horizontal: [
+		{
+			id: 4,
+			title: '猫',
+			info: '上海静安寺的猫',
+			pictureUrl: 'https://s3.ax1x.com/2020/11/21/D1iznS.jpg',
+		},
+		{
+			id: 5,
+			title: '猫',
+			info: '上海静安寺的猫',
+			pictureUrl: 'https://s3.ax1x.com/2020/11/21/D1iznS.jpg',
+		},
+		{
+			id: 6,
+			title: '猫',
+			info: '上海静安寺的猫',
+			pictureUrl: 'https://s3.ax1x.com/2020/11/21/D1iznS.jpg',
+		},
+		{
+			id: 7,
+			title: '猫',
+			info: '上海静安寺的猫',
+			pictureUrl: 'https://s3.ax1x.com/2020/11/21/D1iznS.jpg',
+		},
+	],
+}
 
 export default pictures

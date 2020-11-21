@@ -2,6 +2,10 @@
 	margin: 0;
 	padding: 0;
 }
+html,
+body {
+	overflow-x: hidden;
+}
 
 #app {
 	font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -13,6 +17,6 @@
 }
 
 .page-container {
-	width: 100%;
 	min-height: 100vh;
+	padding: 20px 40px;
 }

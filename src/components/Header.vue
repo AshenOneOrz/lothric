@@ -19,18 +19,19 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .header-container {
 	position: sticky;
 	top: 0px;
 	height: 8vh;
 	border-bottom: 1px solid #eee;
 	box-shadow: 0 0 5px #eeeeee;
-	padding: 0px 20px;
+	padding: 0px 40px;
 	display: flex;
 	justify-content: space-between;
 	font-size: 12px;
 	letter-spacing: 1px;
+	background-color: rgba(255, 255, 255, 0.9);
 }
 
 .logo-wrapper {
@@ -45,7 +46,6 @@ export default {
 }
 
 nav {
-	width: 20vw;
 	height: 100%;
 	display: flex;
 	justify-content: space-around;
